@@ -1,7 +1,11 @@
 package com.stackroute.keepnote.aspect;
 
-/* Annotate this class with @Aspect and @Component */
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
 
+/* Annotate this class with @Aspect and @Component */
+@Aspect
+@Component
 public class LoggingAspect {
 
 	/*
